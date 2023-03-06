@@ -1,0 +1,20 @@
+.card{
+    background-color: #d6d3c0;
+    border: 5px solid #4b3120;
+    border-radius: 20px;
+}
+
+.info{
+    color: #846a49;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.card-title{
+    font-family: 'Gliker';
+}
+
+@font-face {
+    font-family: 'Gliker';
+    src: url('Gliker-Regular.ttf');
+}
