@@ -1,38 +1,58 @@
 body{
     height: 88vh;
-    background-image: url("images/bg-min.jpg");
+    background-image: url("images/bg1-min.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 100%;
+    background-size: cover;
     background-position: -10%;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+}
 
 .card{
     /* background-color: transparent; */
-    background-clip: padding-box;
-    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5); }
+    /* background-clip: padding-box; */
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+}
 
 .icon:hover{
     transform: scale(1.2);
     transition: 200ms;
-    opacity: calc(100% - 40%); }
+    opacity: calc(100% - 40%);
+}
+
+.move{
+    transform: translate(500px, 0px);
+    -webkit-transform: translate(-500px, 0px);
+	-o-transform: translate(-500px, 0px); 
+	-moz-transform: translate(-500px, 0px);
+    /* transform: translate(0, 10vw); */
+    transition: 200ms;
+}
 
 .visible {
     opacity: 1;
-    transform: translate(0, 0); }
+    transform: translate(0, 0);
+}
 
 .fadeTop {
-    /* opacity: 0; */ 
+    opacity: 0; 
     transform: translate(0, 10vh);
-    transition: all 1s; }
+    transition: all 1s;
+}
     
 .fadeLeft {
-opacity: 0;
-transform: translate(10vh, 0vh);
-transition: all 1s; }
+    opacity: 0;
+    transform: translate(10vh, 0vh);
+    transition: all 1s;
+}
 
 .fadeRight {
-opacity: 0;
-transform: translate(-10vh, 0vh);
-transition: all 1s; }
+    opacity: 0;
+    transform: translate(-10vh, 0vh);
+    transition: all 1s;
+}
+
+h6{
+    padding: 1rem 0rem 1rem 0rem;
+}

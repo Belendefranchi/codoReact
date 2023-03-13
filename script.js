@@ -1,9 +1,17 @@
-const btn = document.getElementById('btn');
-const card = document.getElementsByClassName('card');
+/* const btn = document.getElementById('btn');
 
-/* btn.addEventListener('click', () => {
-		card.classList.add('visible');
+btn.addEventListener('click', () => {
+	const card = document.getElementById('card');
+	card.classList.add('move');
 }); */
+
+const mover = () => {
+	document.getElementById('card').classList.add('move');
+};
+
+const volver = () => {
+	document.getElementById('card').classList.remove('move');
+};
 
 /* btn.addEventListener('click', function()  {
     let elements = document.getElementsByClassName('card');
