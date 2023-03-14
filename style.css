@@ -1,18 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Rancho&display=swap');
+
+nav{
+    background-color: #dfe9f3;
+}
+
 body{
-    height: 88vh;
+    width: 100vw;
     background-image: url("images/bg1-min.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: -10%;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .card{
-    /* background-color: transparent; */
-    /* background-clip: padding-box; */
-    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.5);
+    width: 22rem;
+    height: auto;
+    border : 15px solid white;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.5);
+}
+
+.card:last-child{
+    background-color: white;
+}
+
+.img{
+    border-radius: 20px;
+}
+
+.polaroid {
+    background-color:white;
+    padding:1px 8px 30px 8px;
+    border:1px solid #BFBFBF;
+    box-shadow:5px 5px 20px rgba(0, 0, 0, 0.8);
+}
+
+.RotarDer {
+    transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg); /* IE9 */
+    -webkit-transform:rotate(-10deg); /* Safari y Chrome */
+    -moz-transform:rotate(-10deg); 
+}
+
+.polygon1{
+    padding-bottom: 4rem;
+    background-color: white;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
 
 .icon:hover{
@@ -26,13 +65,17 @@ body{
     -webkit-transform: translate(-500px, 0px);
 	-o-transform: translate(-500px, 0px); 
 	-moz-transform: translate(-500px, 0px);
-    /* transform: translate(0, 10vw); */
     transition: 200ms;
 }
 
 .visible {
     opacity: 1;
-    transform: translate(0, 0);
+    transition: 200ms;
+}
+
+.hidden{
+    opacity: 0;
+    transition: 200ms;
 }
 
 .fadeTop {
@@ -54,5 +97,5 @@ body{
 }
 
 h6{
-    padding: 1rem 0rem 1rem 0rem;
+    font-family: 'Rancho', cursive;
 }
