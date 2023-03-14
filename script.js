@@ -1,29 +1,18 @@
-/* const btn = document.getElementById('btn');
+const btn = document.getElementById('btn');
 
 btn.addEventListener('click', () => {
-	const card = document.getElementById('card');
+	const card = document.getElementById('card1');
 	card.classList.add('move');
-}); */
+});
 
-const mover = () => {
-	document.getElementById('card').classList.add('move');
-};
+/* const mover = () => {
+	document.getElementById('card1').classList.remove('justify-content-center');
+	document.getElementById('card1').classList.add('move');
+} */;
 
 const volver = () => {
-	document.getElementById('card').classList.remove('move');
+	document.getElementById('card1').classList.add('back');
+	document.getElementById('card2').classList.add('visible');
 };
 
-/* btn.addEventListener('click', function()  {
-    let elements = document.getElementsByClassName('card');
-    let screenSize = window.innerHeight;
-    
-    for(var i = 0; i < elements.length; i++) {
-			let element = elements[i];
-
-			if(element.getBoundingClientRect().top < screenSize) {
-				element.classList.add('visible');
-			} else {
-				element.classList.remove('visible');
-			}
-		}
-  }) */
+/* mover(); */
