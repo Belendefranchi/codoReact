@@ -13,7 +13,7 @@
 
 <body>
 	<header>
-		<div class="container text-center text-lg-left py-3" id="top">
+		<div class="container text-center text-lg-left" id="top">
 <!-- 			<nav>
 				<ul class="nav justify-content-end">
 					<li class="nav-item">
@@ -33,13 +33,75 @@
 		</div>
 	</header>
 	<main>
-		<div class="bg mx-5 d-flex flex-wrap text-center justify-content-center gap-3"> 
-			<div id="container1"></div>
-			<div id="container2"></div>
+		<div class="mx-5 text-center d-flex flex-wrap justify-content-center gap-3"> 
+			<div class="card my-2">
+				<div class="polygon">
+					<img src="./images/avatar_removebg.png" class="img align-self-center" alt="avatar" style="width: 10rem;">
+					<div class="card-body">
+						<h5 class="card-title">María Belén De Franchi</h5>
+						<p class="card-text">Hola, soy Belu, y trabajo como Sysadmin en una industria desde hace más de 6 años. Me gusta estar en constante aprendizaje, por eso, me encuentro desarrollando habilidades como full stack web developer.</p>
+					</div>
+				</div>
+				<span class="text-light">Conóceme en mis redes:</span>
+				<div class="d-flex justify-content-center p-2 gap-3">
+					<a class="nav-link" href="https://www.linkedin.com/in/maria-bel%C3%A9n-de-franchi-26b00591/"
+						title="linkedIn" target="_blank" rel="noopener noreferrer">
+						<img class="icon" src="./images/linkedin.png" width="35" alt="LinkedIn">
+					</a>
+					<a class="nav-link" href="https://github.com/Belendefranchi/" title="Github" target="_blank"
+						rel="noopener noreferrer">
+						<img class="icon" src="./images/github.png" width="35" alt="GitHub">
+					</a>
+				</div>
+				<button class="btn btn-secondary m-3 align-self-center" id="btn">Más info.</button>
+			</div>
+			<div class="card card2 my-1 hidden">
+				<div class="card-body p-0">
+					<h5 class="card-title pb-2">Más sobre mí:</h5>
+					<p class="card-text">Estoy adquiriendo habilidades como desarrolladora gracias a programas como Codo a Codo 4.0 y Argentina Programa 4.0. También me encuentro realizando la carrera de Desarrollador Full Stack Js en CoderHouse. Y si tengo suerte, pronto empezaré el programa de Oracle ONE.</p>
+					<div class="d-flex justify-content-center align-items-center">
+						<span>Acá podés ver mi &nbsp</span>
+						<a href="https://belendefranchi.github.io/argentinaPrograma/" target="_blank">Curriculum Vitae</a>
+					</div>
+					<h5 class="mt-5">Lenguajes, Frameworks y otros:</h5>
+					<div>
+						<div class="d-flex flex-column flex-wrap align-items-center">
+							<h6 class="pt-3 text-start text-decoration-underline">Front End:</h6>
+							<div>
+								<img class="icon mx-2" src="./images/html.png" height="50" alt="HTML">
+								<img class="icon mx-2" src="./images/css.png" height="50" alt="CSS">
+								<img class="icon mx-2" src="./images/js.png" height="50" alt="JS">
+								<img class="icon mx-2" src="./images/sass.png" height="50" alt="Sass">
+								<img class="icon mx-2" src="./images/bootstrap.png" height="50" alt="Bootstrap">
+								<img class="icon mx-2" src="./images/react.png" height="50" alt="React">
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex flex-column flex-wrap align-items-center">
+							<h6 class="pt-3 text-start text-decoration-underline">Back End:</h6>
+							<div>
+								<img class="icon mx-2" src="./images/php.png" height="50" alt="PHP">
+								<img class="icon mx-2" src="./images/mysql.png" height="50" alt="mysql">
+								<img class="icon mx-2" src="./images/sql.png" height="50" alt="SQL">
+								<img class="icon mx-2" src="./images/fire.png" height="50" alt="Firebase">
+								<img class="icon mx-2" src="./images/node.png" height="50" alt="Node">
+							</div>
+						</div>
+					</div>
+					<div>
+						<div class="d-flex flex-column flex-wrap align-items-center">
+							<h6 class="pt-3 text-start text-decoration-underline">Versionado:</h6>
+							<div>
+								<img class="icon mx-2" src="./images/git.png" height="50" alt="Git">
+								<img class="icon mx-2" src="./images/github2.png" height="50" alt="GitHub">
+							</div>
+							<button class="btn align-self-end p-0" id="back"><img src="./images/volver-arriba.png" height="40" alt=""></button>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-			
-
-
 	</main>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">

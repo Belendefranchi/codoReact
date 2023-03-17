@@ -1,33 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Rancho&display=swap');
-
-nav{
-    background-color: #dfe9f3;
-}
-
 body{
-    width: 100vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-image: url("images/bg1-min.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-repeat: repeat;
+    background-position: 10%;
+    background-repeat: no-repeat;
 }
 
-.card{
+.card{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 22rem;
-    border : 15px solid white;
+    border : 12px solid white;
     background-color: transparent;
     backdrop-filter: blur(5px);
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.5);
 }
-
-/* .card:last-child{
-    background-color: white;
-} */
 
 .card2{
     background-color: white;
@@ -35,14 +27,15 @@ body{
 }
 
 .img{
+    margin-top: 1rem;
     background-color: #336268;
     border-radius: 80px;
 }
 
-.polygon1{
-    padding-bottom: 4rem;
+.polygon{
+    padding-bottom: 1rem;
     background-color: white;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
 }
 
 .icon:hover{
@@ -51,50 +44,6 @@ body{
     opacity: calc(100% - 40%);
 }
 
-.move{
-    transform: translate(100%, 0%);
-/*     -webkit-transform: translate(100px, 0px);
-	-o-transform: translate(100px, 0px); 
-	-moz-transform: translate(100px, 0px); */
-    transition: 200ms;
-}
-
-.back{
-    transform: translate(0%, 0%);
-/*     -webkit-transform: translate(100px, 0px);
-	-o-transform: translate(100px, 0px); 
-	-moz-transform: translate(100px, 0px); */
-    transition: 200ms;
-}
-
-.visible {
-    opacity: 1;
-    transition: 200ms;
-}
-
 .hidden{
-    opacity: 0;
-    transition: 200ms;
-}
-
-.fadeTop {
-    opacity: 0; 
-    transform: translate(0, 10vh);
-    transition: all 1s;
-}
-    
-.fadeLeft {
-    opacity: 0;
-    transform: translate(10vh, 0vh);
-    transition: all 1s;
-}
-
-.fadeRight {
-    opacity: 0;
-    transform: translate(-10vh, 0vh);
-    transition: all 1s;
-}
-
-h6{
-    font-family: 'Rancho', cursive;
+    display: none;
 }
