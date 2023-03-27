@@ -10,12 +10,25 @@ body{
     background-color: black;
 }
 
-h3, span {
+.fontColor {
     color: #d5ac8c;
 }
 
 p {
     color: white;
+}
+
+.btn {
+    color:#d5ac8c;
+    border: 4px solid #d5ac8c;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #d5ac8c;
 }
 
 @media only screen and (max-width: 600px) and (min-width: 400px)  {}
