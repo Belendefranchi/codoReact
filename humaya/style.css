@@ -1,0 +1,22 @@
+.portada{
+    background-image: url(./IMAGENES/Central/imagenCentral.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+h3, span {
+    color: #d5ac8c;
+}
+
+p {
+    color: white;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px)  {}
+
