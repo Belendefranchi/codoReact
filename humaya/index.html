@@ -11,19 +11,27 @@
 <body>
     <header>
         <!-- Navbar Principal-->
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+
+    </header>
+
+    <main>
+        <!-- Section Portada-->
+        <section class="portada d-flex flex-column">
+          <nav class="navbar navbar-expand-lg w-100">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">HUMAYA</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav gap-5 d-flex justify-content-center align-items-center">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" href="#">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#"><img src="./IMAGENES/Logo/LogoHumaya100x100.png" alt=""></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link active" href="#">Locales</a>
@@ -35,22 +43,17 @@
               </div>
             </div>
           </nav>
-    </header>
-
-    <main>
-        <!-- Section Portada-->
-        <section class="portada">
-            <div>
-                <h1>DULCES DEL ALMA</h1>
-                <p>Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
-                <a><button class="btn btn-light">CONOCENOS</button></a>
-            </div>
+          <div>
+              <h1>DULCES DEL ALMA</h1>
+              <p>Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
+              <a><button class="btn btn-light">CONOCENOS</button></a>
+          </div>
         </section>   
 
 				<!-- Section Productos-->
 				<section>
 						<div>
-              <h2>PRODUCTOS</h2>
+              <h2 class="p-5 text-center prod">PRODUCTOS</h2>
               <div class="row d-flex">
                 <div class="col p-0">
                   <img class="w-100" src="./IMAGENES/Productos/Producto1.png" alt="">
