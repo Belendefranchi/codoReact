@@ -1,4 +1,9 @@
 .vscode
 node_modules
 */node_modules
+axios
 diagnostico
+listaTareas
+movies
+tailwindcss
+usecontext
