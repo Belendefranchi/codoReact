@@ -16,14 +16,14 @@
 
     <main>
         <!-- Section Portada-->
-        <section class="portada d-flex flex-column">
-          <nav class="navbar navbar-expand-lg w-100">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <section class="portada">
+          <nav class="navbar navbar-expand-lg p-5 bg-body-tertiary">
+            <div class="container-fluid d-flex justify-content-center align-content-center align-items-center text-center">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav gap-5 d-flex justify-content-center align-items-center">
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav gap-5 d-flex align-items-center">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
@@ -43,76 +43,139 @@
               </div>
             </div>
           </nav>
-          <div>
-              <h1>DULCES DEL ALMA</h1>
-              <p>Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
-              <a><button class="btn btn-light">CONOCENOS</button></a>
-          </div>
-        </section>   
-
-				<!-- Section Productos-->
-				<section>
-						<div>
-              <h2 class="p-5 text-center prod">PRODUCTOS</h2>
-              <div class="row d-flex">
-                <div class="col p-0">
-                  <img class="w-100" src="./IMAGENES/Productos/Producto1.png" alt="">
-                </div>
-                <div class="col p-0 text-center">
-                  <h3 class="fw-light fs-1 mt-5 fontColor">DULCE DE LECHE TRADICIONAL</h3>
-                  <div class="d-flex flex-column flex-wrap fs-5 text-start p-5 mx-5">
-                    <p class="">Elaboración artesanal de principio a fin, con un sabor intenso, receta tradicional.</p>
-                    <p class="fw-bold fontColor">Presentación en frasco de vidrio de 580gr.</p>
-                    <button class="w-25 align-self-center mt-5 btn">+ INFO</button>
-                  </div>
-                </div>
-              </div>
-              <div class="row d-flex">
-                <div class="col p-0 text-center">
-                  <h3 class="fw-light fs-1 mt-5 fontColor">DULCE DE LECHE SIN AZÚCAR</h3>
-                  <div class="d-flex flex-column flex-wrap fs-5 text-start p-5 mx-5">
-                    <p class="">Elaboración artesanal para cuidar tu silueta sin renunciar a nada, endulzado naturalmente con stevia.</p>
-                    <p class="fw-bold fontColor">Presentación en frasco de vidrio de 580gr y 280gr.</p>
-                    <button class="w-25 align-self-center mt-5 btn">+ INFO</button>
-                  </div>
-                </div>
-                <div class="col p-0">
-                  <img class="w-100" src="./IMAGENES/Productos/Producto2.png" alt="">
-                </div>
-              </div>
-              <div class="row d-flex">
-                <div class="col p-0">
-                  <img class="w-100" src="./IMAGENES/Productos/Producto3.png" alt="">
-                </div>
-                <div class="col p-0 text-center">
-                  <h3 class="fw-light fs-1 mt-5 fontColor">DULCE CHOCONUTT</h3>
-                  <div class="d-flex flex-column flex-wrap fs-5 text-start p-5 mx-5">
-                    <p class="">Elaboración artesanal para el capricho dulce, combinación de dulce de leche, chocolate y pasta de avellanas. Una delicia única.</p>
-                    <p class="fw-bold fontColor">Presentación en frasco de vidrio de 280gr.</p>
-                    <button class="w-25 align-self-center mt-5 btn">+ INFO</button>
-                  </div>
-                </div>
-              </div> 
-						</div>
-				</section>
-
-        <!-- Section Calidad-->
-        <section>
-            <div>
-                <h2>Calidad</h2>
-                <div>
-                    <img>
-                    <p></p>
-                </div>
+          <div class="row d-flex justify-content-end pb-5 ">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 m-5 p-5 d-flex flex-column">
+              <h1 class="mx-5 px-4 py-3 fw-light title">DULCES DEL ALMA</h1>
+              <p class="mx-5 px-4 py-3 fs-4">Los productos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
+              <a class="align-self-center mb-5 pb-5"><button class="button my-5">CONOCENOS</button></a>
             </div>
-        </section>  
+          </div>
+        </section>
+				<!-- Section Productos-->
+				<section class="productos">
+          <h2 class="p-5 m-0 text-center subtitle">PRODUCTOS</h2>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">
+              <img class="img-fluid w-100" src="./IMAGENES/Productos/Producto1.png" alt="Dulce de leche tradicional">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 py-5">
+              <h3 class="fw-light fs-1 fontColor text-center">DULCE DE LECHE TRADICIONAL</h3>
+              <div class="d-flex flex-column mx-5 p-5">
+                <p class="">Elaboración artesanal de principio a fin, con un sabor intenso, receta tradicional.</p>
+                <p class="fw-bold fontColor">Presentación en frasco de vidrio de 580gr.</p>
+                <button class="px-4 mt-5 btn align-self-center">+ INFO</button>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 py-5">
+              <h3 class="fw-light fs-1 fontColor text-center">DULCE DE LECHE SIN AZÚCAR</h3>
+              <div class="d-flex flex-column mx-5 p-5">
+                <p class="">Elaboración artesanal para cuidar tu silueta sin renunciar a nada, endulzado naturalmente con stevia.</p>
+                <p class="fw-bold fontColor">Presentación en frasco de vidrio de 580gr y 280gr.</p>
+                <button class="px-4 mt-5 btn align-self-center">+ INFO</button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">
+              <img class="img-fluid w-100" src="./IMAGENES/Productos/Producto2.png" alt="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0">
+              <img class="img-fluid w-100" src="./IMAGENES/Productos/Producto3.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 py-5">
+              <h3 class="fw-light fs-1 fontColor text-center">DULCE CHOCONUTT</h3>
+              <div class="d-flex flex-column mx-5 p-5">
+                <p class="">Elaboración artesanal para el capricho dulce, combinación de dulce de leche, chocolate y pasta de avellanas. Una delicia única.</p>
+                <p class="fw-bold fontColor">Presentación en frasco de vidrio de 280gr.</p>
+                <button class="px-4 mt-5 btn align-self-center">+ INFO</button>
+              </div>
+            </div>
+          </div>
+          <div class="row back">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 py-5">
+              <h3 class="fw-light fs-1 fontColor2 text-center">ALFAJORES DE MAICENA</h3>
+              <div class="d-flex flex-column ms-5 p-5">
+                <p class="">Alfajores de dulce con coco rallado, rellenos con 2 cm de pura dulzura. Pudiendo elegir entre dulce de leche tradicional, light o choconutt.</p>
+                <p class="fw-bold fontColor2">Presentación en caja de 6 y 12 alfajores.</p>
+                <button class="px-4 mt-5 btn2 align-self-center">+ INFO</button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex justify-content-end">
+              <img class="img-fluid p-5 mx-5" src="./IMAGENES/Productos/Producto4.png" alt="">
+            </div>
+          </div>
+				</section>
+        <!-- Section Calidad-->
+        <section class="calidad p-5">
+            <h2 class="text-center pb-3">La mejor calidad para vos</h2>
+            <div class="d-flex justify-content-center">
+              <div class="text-center">
+                <img class="img-fluid p-5" src="./IMAGENES/Calidad/izquierda.png" alt="100% orgánico">
+                <p class="px-5 fontColor">100%<br>ORGÁNICO</p>
+              </div>
+              <div class="text-center">
+                <img class="img-fluid p-5" src="./IMAGENES/Calidad/centro.png" alt="Sin TACC">
+                <p class="px-5 fontColor">SIN<br>TACC</p>
+              </div>
+              <div class="text-center">
+                <img class="img-fluid p-5" src="./IMAGENES/Calidad/derecha.png" alt="Sin conservantes">
+                <p class="px-5 fontColor">SIN<br>CONSERVANTES</p>
+              </div>
+            </div>
+            <h2 class="text-center pt-3">Contáctanos</h2>
+        </section>
+        <section>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 d-flex">
+              <img class="img-fluid" src="./IMAGENES/Productos/Producto5.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-1 pt-4 d-flex flex-column px-0 py-5">
+              <p class="fontColor2 fs-5 px-5 mx-5">Déjanos tu consulta y nuestro personal se pondrá en contacto a la brevedad:</p>
+              <form class="d-flex flex-column justify-content-center px-5 mx-5" action="">
+                <label class="fontColor2 py-2" for="nombre">NOMBRE:</label>
+                <input class="back2" type="text" name="nombre">
+                <label class="fontColor2 py-2" for="Email">EMAIL:</label>
+                <input class="back2" type="text" name="nombre">
+                <label class="fontColor2 py-2" for="Email">CONSULTA:</label>
+                <textarea class="back2" id="consulta" name="consulta" rows="3" cols="50"></textarea>
+                <input class="btn2 mt-4 mx-5 py-2 px-0 w-25 align-self-center" type="submit" value="Enviar">
+              </form>
+            </div>
+          </div>
+        </section>
+        <section class="calidad p-5">
+          <h2 class="text-center pb-3">Recetas</h2>
+          <div class="row gap-4 d-flex justify-content-center align-content-center align-items-center">
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 p-0 back text-center" style="width:350px; height: 450px;">
+              <img class="img-fluid" style="width:350px;" src="./IMAGENES/Productos/Receta1.png" alt="">
+              <h3 class="fontColor2 p-2">CONITOS</h3>
+              <p class="px-4 text-start">Una delicisa opción para acompañar las meriendas, ese antojo de media noche o compartir con amigos.</p>
+              <button class="btn2 m-3">PREPARACIÓN</button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 p-0 back text-center" style="width:350px; height: 450px;">
+              <img class="img-fluid" style="width:350px;" src="./IMAGENES/Productos/Receta2.png" alt="">
+              <h3 class="fontColor2 p-2">PEPAS</h3>
+              <p class="px-4 text-start">Las galletitas mas tiernas y ricas, rellenas de dulce de leche, ideales para el mate y la hora del té.</p>
+              <button class="btn2 m-3">PREPARACIÓN</button>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 p-0 back text-center" style="width:350px; height: 450px;">
+              <img class="img-fluid" style="width:350px;" src="./IMAGENES/Productos/Receta3.png" alt="">
+              <h3 class="fontColor2 p-2">TORTA NUTT</h3>
+              <p class="px-4 text-start">La torta de tres capas más sabrosa del mundo, combina una base de vainilla, dulce de leche y cubierta de choconutt.</p>
+              <button class="btn2 m-3">PREPARACIÓN</button>
+            </div>
+            <h2 class="text-center">Encontranos en:</h2>
+          </div>
+        </section>
         
         <!-- Section Quienes somos-->
         <section>
             <div>
-                <h2>Quienes somos</h2>  
-                <p>saraza</p>
-                <p>saraza</p>      
+              <h2 class="p-5 m-0 text-center subtitle">QUIENES SOMOS</h2>
+              <p>saraza</p>
+              <p>saraza</p>      
             </div>
             <div>
                 <h2>Clientes</h2>

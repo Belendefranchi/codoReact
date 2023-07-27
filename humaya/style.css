@@ -1,10 +1,5 @@
-main{
-    background-color: black;
-}
-
 nav{
-    /* width: 100%; */
-    background-color: black;
+    background: linear-gradient(black, transparent);
 }
 
 .nav-link{
@@ -21,16 +16,30 @@ nav{
     color: white;
 }
 
-.prod{
-    background-color: gray;
+.button{
+    background-color: black;
+    opacity: 0.7;
+    padding: 1rem 3rem 1rem 3rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 2rem;
+}
+
+.title{
+    font-size: 3.5rem; 
+}
+
+.subtitle{
+    background-color: grey;
     color: white;
 }
+
 .fontColor{
     color: #d5ac8c;
 }
 
-p {
-    color: white;
+.fontColor2{
+    color: #63421e;
 }
 
 .btn{
@@ -44,6 +53,42 @@ p {
 .btn:hover{
     color: white;
     background-color: #d5ac8c;
+}
+
+.btn2{
+    color:#63421e;
+    background-color: transparent;
+    border: 4px solid #63421e;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.btn2:hover{
+    color: white;
+    background-color: #63421e;
+}
+
+.back{
+    background-color: #d5ac8c;
+}
+
+.back2{
+    background-color: #63421e;
+}
+
+.productos{
+    background-color: black;
+    color: white;
+}
+
+.calidad{
+    background-color: #2f2d2d;
+    color: white;
+}
+
+.img{
+    
 }
 
 @media only screen and (max-width: 600px) and (min-width: 400px)  {}
